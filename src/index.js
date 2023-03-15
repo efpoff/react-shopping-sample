@@ -6,7 +6,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import reportWebVitals from "./reportWebVitals";
 
 const client = new ApolloClient({
-  uri: "https://api-us-west-2.hygraph.com/v2/clf66jjlq5hbr01uj34p7982w/master",
+  uri: "[INSERT YOUR HYGRAPH CONTENT API ENDPOINT HERE]",
   cache: new InMemoryCache(),
 });
 
